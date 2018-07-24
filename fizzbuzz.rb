@@ -1,4 +1,4 @@
-require_relative 'kwk-l1-fizzbuzz-kwk-students-l1-phil-072318/fizzbuzz.rb'
+require_relative "kwk-l1-fizzbuzz-kwk-students-l1-phil-072318/fizzbuzz.rb"
 
 puts "What is your number?"
  number = gets.chomp.to_i 
