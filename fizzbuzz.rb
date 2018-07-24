@@ -1,3 +1,5 @@
+require_relative '../fizzbuzz.rb'
+
 puts "What is your number?"
  number = gets.chomp.to_i 
 describe "fizzbuzz" do
