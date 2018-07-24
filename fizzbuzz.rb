@@ -1,6 +1,10 @@
 def fizzbuzz(number)
   puts "What is your number?"
   number = gets.chomp.to_i 
+end 
+if number % 3 
+  puts
+
 
  
 describe "fizzbuzz" do
