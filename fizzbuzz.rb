@@ -1,5 +1,7 @@
 require_relative './spec_helper.rb'
  
+ puts "What is your number?"
+ number = gets.chomp.to_i 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
     fizz_3 = fizzbuzz(3)
