@@ -1,7 +1,8 @@
-require_relative "kwk-l1-fizzbuzz-kwk-students-l1-phil-072318/fizzbuzz.rb"
+def fizzbuzz(number)
+  puts "What is your number?"
+  number = gets.chomp.to_i 
 
-puts "What is your number?"
- number = gets.chomp.to_i 
+ 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
     fizz_3 = fizzbuzz(3)
